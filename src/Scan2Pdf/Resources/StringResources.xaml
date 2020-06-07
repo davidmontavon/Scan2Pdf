@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Scan2Pdf.Resources"
+                    xmlns:system="clr-namespace:System;assembly=mscorlib">
+    <system:String x:Key="conversionWindowsDefaultTitle">Convert to PDF</system:String>
+    <system:String x:Key="conversionWindowsTitleOneFile">Convert one scan to PDF</system:String>
+    <system:String x:Key="conversionWindowsTitleMultipleFiles">Convert [SCANS_COUNT] scans to PDF</system:String>
+    <system:String x:Key="menuItemAbout">About</system:String>
+    <system:String x:Key="pdfDefaultTitle">New PDF</system:String>
+    <system:String x:Key="generatePDF">Generate PDF</system:String>    
+    <system:String x:Key="aboutScan2Pdf">About Scan2Pdf</system:String>
+    <system:String x:Key="githubPage">GitHub page:</system:String>
+    <system:String x:Key="license">License:</system:String>
+    <system:String x:Key="errorTitle">Error</system:String>
+    <system:String x:Key="errorScanFileNotFound">Scan [SCAN_FILE_PATH] not found!</system:String>
+    <system:String x:Key="errorNoScanFileSelected">No scan selected!</system:String>
+    <system:String x:Key="errorInvalidPdfFile">The file [SCAN_FILE_PATH] is not a valid PDF document!</system:String>
+    <system:String x:Key="errorInvalidImageFile">The file [SCAN_FILE_PATH] is not a valid image!</system:String>
+</ResourceDictionary>
